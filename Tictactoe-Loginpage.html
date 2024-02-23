@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Century gothic;
+            color: white;
+            font-size: 20px;
+            background: linear-gradient(to left, #c31432, #240b36);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        #login-container {
+            text-align: center;
+        }
+
+        h2 {
+            font-weight: 700;
+        }
+
+        #login-container input {
+            padding: 8px;
+            margin: 8px;
+        }
+
+        #start-btn {
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            margin-top: 23px;
+            margin-top: 30px;
+            padding: 12px;
+            border-radius: 16px;
+            font-size: 20px;
+            background: linear-gradient(to left, #dae2f8, #d6a4a4);
+            font-family: century gothic;
+            font-weight: 700;
+        }
+        #player1{
+            border-radius: 20px;
+            font-family: century gothic;
+            font-weight: 450;
+        }
+        #player2{
+            border-radius: 20px;
+            font-family: century gothic;
+            font-weight: 450;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="login-container">
+        <h2>Login</h2>
+        <div class="part1">
+            <label for="player1">Player 1 Name:</label>
+            <input type="text" id="player1" size="30" placeholder="Enter Player 1 Name">
+
+        </div>
+        <div class="part2">
+            <label for="player2">Player 2 Name:</label>
+            <input type="text" id="player2" size="30" placeholder="Enter Player 2 Name">
+
+        </div>
+
+        <button id="start-btn">Start Game</button>
+    </div>
+
+</body>
+
+</html>

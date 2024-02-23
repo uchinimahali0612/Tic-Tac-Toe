@@ -1,0 +1,137 @@
+.body1 {
+    text-align: center;
+    font-family: Arial, sans-serif;
+    /* background-color: grey; */
+    background: linear-gradient(to left, #c31432, #240b36);
+}
+body{
+    background: linear-gradient(to left, #c31432, #240b36);
+}
+
+h1 {
+    color: white;
+    font-family: Century gothic;
+    text-align: center;
+}
+
+.container {
+    margin-top: 30px;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 119px);
+    grid-gap: 20px;
+}
+
+.cell {
+    width: 119px;
+    height: 119px;
+    display: flex;
+    border-radius: 17px;
+    align-items: center;
+    justify-content: center;
+    font-size: 46px;
+    font-family: Perpetua;
+    background-color: #f0f0f0;
+    border: 2px solid #ccc;
+    cursor: pointer;
+}
+
+.cell:hover {
+    background-color: #ccc;
+}
+
+#Restart {
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    background: linear-gradient(to left, #dae2f8, #d6a4a4);
+    font-family: century gothic;
+    font-weight: 700;
+}
+#Reset {
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    background: linear-gradient(to left, #dae2f8, #d6a4a4);
+    font-family: century gothic;
+    font-weight: 700;
+    margin-left: 82px;
+}
+
+div#xpart {
+    font-size: 20px;
+    color: white;
+    margin-bottom: 20px;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    /* margin-left: 20px;   */
+}
+#parta{
+    margin-right: 47px;
+}
+input[type="text"] {
+    width: 21%;
+    height: 30px;
+}
+
+.body2 {
+    font-family: Century gothic;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to left, #c31432, #240b36);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+#login-container {
+    text-align: center;
+}
+div#overall {
+    display: flex;
+    justify-content: center;
+}
+h2 {
+    font-weight: 700;
+    font-family: Century gothic;
+    font-weight: 900;
+    color: white;
+}
+
+#login-container input {
+    padding: 8px;
+    margin: 8px;
+}
+
+#start-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 23px;
+    margin-top: 30px;
+    padding: 12px;
+    border-radius: 16px;
+    font-size: 20px;
+    background: linear-gradient(to left, #dae2f8, #d6a4a4);
+    font-family: century gothic;
+    font-weight: 700;
+}
+#player1{
+    border-radius: 20px;
+    font-family: century gothic;
+    font-weight: 450;
+    color: white;
+}
+#player2{
+    border-radius: 20px;
+    font-family: century gothic;
+    font-weight: 450;
+    color: white;
+}
